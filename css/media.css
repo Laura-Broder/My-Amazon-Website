@@ -1,0 +1,131 @@
+@media only screen and (max-width: 400px) {
+  body {
+    min-width: 350px;
+  }
+  .page-wrap,
+  .box-content {
+  min-width: auto;
+  max-width: auto;
+  }
+  .accessability-footer,
+  .breadcrumbs,
+  .search-left,
+  .product-alt-imgs, 
+  .product-selected-img:hover,
+  .product-selected-img:hover::after,
+  .product-selected-img:hover::before,
+  .product-selected-img p,
+  .secondary-title h4,
+  .product-info,
+  .nav-main-fill,
+  .nav-main-right,
+  .nav-right ul li:nth-child(1),
+  .nav-right ul li:nth-child(2),
+  .nav-right ul li:nth-child(3)
+   {
+    display: none;
+  }
+  .sticky {
+    position: static;
+  }
+  .more-on-amazon-footer {
+    padding: 30px 10px;
+    line-height: 2rem;
+  }
+  .nav-belt {
+    height: 110px;
+    position: relative;
+  }
+  .nav-hamburger {
+    border: none;
+    opacity: 1;
+  }
+  .nav-left {
+    width: 150px;
+    align-self: flex-start;
+  }
+  .nav-fill {
+    padding: 0 10px;
+    min-width: 100%;
+    height: 45px;
+    position: absolute;
+    top: 55px;
+    left: 0;
+  }
+     
+    
+  .nav-right{
+    height: 60px;
+    width: auto;
+  }
+  .nav-right ul {
+    justify-content: flex-end;
+    min-width: auto;
+  }
+  .nav-right ul li {
+    padding: 5px;
+  }
+  .nav-main-left span div{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    color: white;
+  }
+  .product-details {
+    padding: 0;
+  }
+  .product-container,
+  .imgs-container  {
+    display: block;
+  }
+   .imgs-container {
+    min-width: auto;
+   }
+
+   .buy-box {
+    border: none;
+    padding-right: 5px;
+    padding-left: 0;
+    width: auto;
+    height: 100%;
+  }
+  .box {
+    padding: 20px 0;
+  }
+   .secondary-title {
+     flex-direction: column;
+   }
+   .secondary-title h2{
+     color: black;
+   }
+   .secondary-title h5{
+    padding-top: 0 ;
+    padding-left: 0 ;
+  }
+   .top-content {
+     flex-direction: column;
+     align-items: center ;
+   }
+   .hr-img-list ul {
+    justify-content: center;
+  }
+  .hr-img-list > ul > li > img{
+    /* max-height: 100%; */
+    width: 50px;
+    object-fit: cover;
+  }
+  .hr-img-list.carousel .btn {
+    display: none ;
+  }
+  .total-price button {
+    display: none;
+  }
+  .hr-img-list.carousel ul {
+    overflow: scroll;
+    margin: 0;
+  }
+  .hr-img-list.carousel {
+    width: 100vw;
+  }
+}
